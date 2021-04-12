@@ -24,3 +24,13 @@ sleeping.
 philosophers eat at least ’number_of_times_each_philosopher_must_eat’ the
 simulation will stop. If not specified, the simulation will stop only at the death
 of a philosopher.
+
+---
+
+### Difference
+ * philo_one
+    - with threads and mutexes
+ * philo_two
+    - with threads and semaphores
+ * philo_three
+    - with forks, threads and semaphores
